@@ -6,6 +6,7 @@ import shoe1 from '../../assets/images/shoe1.jpg'
 import bag from '../../assets/images/bag.jpg'
 import SalesBoxes from '../widgets/SalesBoxes/SalesBoxes';
 import Footer from '../widgets/Footer/Footer';
+import FeaturedProduct from '../widgets/FeaturedProduct/FeaturedProduct'
 import { createStore } from '../../store/store'
 
 const HomePage = props => 
@@ -27,6 +28,7 @@ const HomePage = props =>
             collection={<div>Summer</div>}
             details={<div>All Accessories</div>}
             ></Textlockup>
+            <FeaturedProduct/>
             <Footer />
         </div>
         

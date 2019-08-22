@@ -5,12 +5,12 @@ import FooterLinks from '../FooterLinks/FooterLinks';
 const Footer = () => {
     return(
         <footer>
-    <section class="callout">
+    <section className="callout">
       <h2>"The surprising styles of Skyline Ivy are advanced for all seasons."</h2>
       <p>Hansel Andersen</p>
     </section>
     <FooterLinks />
-    <div class="aishalink">
+    <div className="aishalink">
         <p>
         This project is 
         <a href="https://github.com/sdras/ecommerce-netlify"> open source on github</a> made with love by Sarah Drasner,
