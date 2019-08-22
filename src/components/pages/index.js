@@ -6,9 +6,10 @@ import shoe1 from '../../assets/images/shoe1.jpg'
 import bag from '../../assets/images/bag.jpg'
 import SalesBoxes from '../widgets/SalesBoxes/SalesBoxes';
 import Footer from '../widgets/Footer/Footer';
+import { createStore } from '../../store/store'
 
-const HomePage = () => {
-    return(
+const HomePage = props => 
+    (
         <div>
             <Header/>
             <Textlockup 
@@ -29,7 +30,6 @@ const HomePage = () => {
             <Footer />
         </div>
         
-    );
-}
+    );      
 
-export default HomePage;
+export default createStore(HomePage);
