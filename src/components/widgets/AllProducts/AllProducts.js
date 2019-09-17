@@ -1,9 +1,7 @@
 import React, {Component} from 'react'
 import { Link } from 'react-router-dom'
-import Header from '../widgets/Header/Header'
-import Footer from '../widgets/Footer/Footer';
-import { withStore } from '../../store/store'
-import data from '../../assets/storedata.json'
+import { withStore } from '../../../store/store'
+import data from '../../../assets/storedata.json'
 
 class AllProducts extends Component {
     constructor(){
@@ -18,7 +16,6 @@ class AllProducts extends Component {
       
       return(
         <div>
-            <Header/>
             <section>
                 <div>
                     {products.map((product, i) =>
@@ -42,7 +39,6 @@ class AllProducts extends Component {
                     </h2>
                 </div>
             </section>
-            <Footer />
         </div>
         
     );      
