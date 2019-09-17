@@ -20,7 +20,6 @@ class FeaturedProduct extends Component {
             <span>Featured Products</span>
           </h2>
           <div className="featured-items">
-            {console.log(products)}
             {products.map((product, i) =>
               <div key={i}>
                 <img src={product.img} alt="product"/>
